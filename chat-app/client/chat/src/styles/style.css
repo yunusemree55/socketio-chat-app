@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.text-align-right{
+    text-align: end;
+}
+
+.rounded{
+    border-radius: 100px;
+}
+.p-5{
+    padding: 5px;
+}
+
+.align-items{
+    align-items: center;
+}
+
+.ml-5{
+    margin-left: 5px;
+}
+.mr-5{
+    margin-right: 5px;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.fw-bold{
+    font-weight: bold;
+}
+
+.register-page-body{
+    height: 100vh;
+    background-color: #673ab7;
+}
+
+.register-card{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 100px;
+    background-color: white;
+    border-radius: 2%;
+    
+} 
+
+.register-card>button,.input-bg>input{
+    width: max-content;
+    border: none;
+    margin: 10px;
+}
+
+.register-card>button{
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: rgb(240, 240, 240);
+    transition: 0.5s;
+}
+
+
+
+.register-card>button:hover{
+    background-color: rgb(203, 203, 203);
+    
+}
+
+.input-bg>input{
+    outline: none;
+    background-color: transparent;
+}
+
+.input-bg{
+    display: flex;
+    padding: 0px 10px;
+    background-color: rgb(237, 237, 237);
+    border-radius: 20px;
+}
+
+
+/* ChatPage */
+
+.chatpage{
+
+    position: relative;
+    width: 100%;
+    background-color: #673ab7;
+    height: 100vh;
+
+}
+
+
+.chat-container{
+    
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    background-color: white;
+
+}
+
+.chat{
+    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.chat-messages{
+    overflow: auto;
+    height: 100%;
+}
+
+.message-send-container{
+
+    border-top: 2px solid black;
+    margin: 10px 0px;
+}
+
+.chat>p{
+
+    padding: 10px 20px;
+
+}
+
+.message-send-container>input{
+    width: 80%;
+    padding: 10px 0px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    
+}
+
+.message-send-container>button{
+    width: 10%;
+}
+
+.chat-bubble{
+    padding: 10px 20px;
+}
+
+.bg-gray{
+    background-color: rgb(232, 232, 232);
+}
